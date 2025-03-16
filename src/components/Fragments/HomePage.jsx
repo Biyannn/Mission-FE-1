@@ -6,7 +6,7 @@ import NewsLetter from "../Beranda/NewsLetter";
 
 const HomePage = () => {
   return (
-      <div className=" py-16 px-[120px]">
+      <div className=" lg:gap-16 lg:py-16 lg:px-[120px] px-7 py-5 gap-6">
         <BannerTop></BannerTop>
         <CourseSection></CourseSection>
         <CourseCategory></CourseCategory>
